@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+@theme {
+  /* Font Weights */
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  /* Line Heights */
+  --line-height-standard: 160%;
+  --line-height-caption: 100%;
+
+  /* Letter Spacings */
+  --letter-spacing-standard: -0.6px;
+
+  --color-primary-25: #fef2f3;
+  --color-primary-50: #fce5e7;
+  --color-primary-100: #faccd0;
+  --color-primary-200: #f599a0;
+  --color-primary-300: #f06671;
+  --color-primary-400: #f97066;
+  --color-primary-500: #e60012;
+  --color-primary-600: #cf0010;
+  --color-primary-700: #b8000e;
+  --color-primary-800: #a1000d;
+  --color-primary-900: #8a000b;
+  --color-primary-950: #730009;
+
+  --color-secondary-25: #daefdf;
+  --color-secondary-50: #b5dfbf;
+  --color-secondary-100: #90cf9f;
+  --color-secondary-200: #6bbf7f;
+  --color-secondary-300: #47af5f;
+  --color-secondary-400: #22a35b;
+  --color-secondary-500: #009857;
+  --color-secondary-600: #018550;
+  --color-secondary-700: #016743;
+  --color-secondary-800: #015236;
+  --color-secondary-900: #013e28;
+  --color-secondary-950: #00291b;
+
+  --color-grayScale-25: #f7f7fa;
+  --color-grayScale-50: #f0f0f4;
+  --color-grayScale-100: #e8e8ed;
+  --color-grayScale-200: #e1e1e8;
+  --color-grayScale-300: #cdced6;
+  --color-grayScale-400: #a9abb8;
+  --color-grayScale-500: #84889a;
+  --color-grayScale-600: #525463;
+  --color-grayScale-700: #3e404c;
+  --color-grayScale-800: #2b2d36;
+  --color-grayScale-900: #252730;
+  --color-grayScale-950: #17181e;
+
+  --color-warning-25: #fff9ed;
+  --color-warning-50: #ffedc6;
+  --color-warning-100: #ffe293;
+  --color-warning-200: #ffce48;
+  --color-warning-300: #ffd768;
+  --color-warning-400: #eeae00;
+  --color-warning-500: #eeae00;
+  --color-warning-600: #d59100;
+  --color-warning-700: #cf8300;
+
+  --breakpoint-3xl: 1920px;
+
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+}
+
+.h1 {
+  font-weight: var(--font-weight-bold);
+  font-size: 32px;
+  line-height: var(--line-height-standard);
+  letter-spacing: var(--letter-spacing-standard);
+}
+.h2 {
+  font-weight: var(--font-weight-bold);
+  font-size: 28px;
+  line-height: var(--line-height-standard);
+  letter-spacing: var(--letter-spacing-standard);
+}
+.h3 {
+  font-weight: var(--font-weight-bold);
+  font-size: 24px;
+  line-height: var(--line-height-standard);
+  letter-spacing: var(--letter-spacing-standard);
+}
+.h4 {
+  font-weight: var(--font-weight-medium);
+  font-size: 24px;
+  line-height: var(--line-height-standard);
+  letter-spacing: var(--letter-spacing-standard);
+}
+
+/* Subtitle Styles */
+.st1 {
+  font-weight: var(--font-weight-bold);
+  font-size: 20px;
+  line-height: var(--line-height-standard);
+  letter-spacing: var(--letter-spacing-standard);
+}
+.st2 {
+  font-weight: var(--font-weight-medium);
+  font-size: 20px;
+  line-height: var(--line-height-standard);
+  letter-spacing: var(--letter-spacing-standard);
+}
+.st3 {
+  font-weight: var(--font-weight-bold);
+  font-size: 18px;
+  line-height: var(--line-height-standard);
+  letter-spacing: var(--letter-spacing-standard);
+}
+.st4 {
+  font-weight: var(--font-weight-medium);
+  font-size: 18px;
+  line-height: var(--line-height-standard);
+  letter-spacing: var(--letter-spacing-standard);
+}
+
+/* Body Styles */
+.b1 {
+  font-weight: var(--font-weight-bold);
+  font-size: 16px;
+  line-height: var(--line-height-standard);
+  letter-spacing: var(--letter-spacing-standard);
+}
+.b2 {
+  font-weight: var(--font-weight-semibold);
+  font-size: 16px;
+  line-height: var(--line-height-standard);
+  letter-spacing: var(--letter-spacing-standard);
+}
